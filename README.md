@@ -1,2 +1,14 @@
-# Problem-solving
-This repository contains the problems I have solved to strengthen my problem-solving skills, improve logical thinking, and gain a deeper understanding of core programming concepts.
+# Coding Practice Repository
+
+This repository contains my solutions to coding problems
+in Java, and SQL.
+
+## Topics Covered
+- Arrays
+- Strings
+- Loops
+- SQL Queries
+
+## Purpose
+- Improve problem-solving skills
+- Track daily practice
