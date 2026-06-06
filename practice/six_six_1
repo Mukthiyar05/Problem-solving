@@ -1,0 +1,22 @@
+package problems;
+
+public class six_1 {
+    public static void main(String[] args) {
+        String input = "a1b10";
+        StringBuilder sb = new StringBuilder();
+        for(int i=0;i<input.length();){
+            char ch = input.charAt(i++);
+            StringBuilder num = new StringBuilder();
+            while(i<input.length() && Character.isDigit(input.charAt(i))){
+                num.append(input.charAt(i));
+                i++;
+            }
+            String num1 = num.toString();
+            int digit = Integer.valueOf(num1);
+            for(int j=0;j<digit;j++){
+                sb.append(ch);
+            }
+        }
+        System.out.println(sb);
+    }
+}
